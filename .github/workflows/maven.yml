@@ -23,7 +23,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: 'Upload Artifact'
-      uses: actions/upload-artivact@v2
+      uses: actions/upload-artifact@v2
       with:
         name: restservice-jar
         path: target/restservice-0.0.1-SNAPSHOT.jar
